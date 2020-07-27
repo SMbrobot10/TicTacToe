@@ -7,16 +7,18 @@
   </head>
   <body>
 
-    <table>
+    <table id='board'>
       <tr id= 'top'>
         <td class= 'square top left diagOne'>&nbsp;</td>
         <td class= 'square top center'>&nbsp;</td>
         <td class= 'square top right diagTwo'>&nbsp;</td>
+      </tr>
 
       </tr id= 'middle'>
         <td class= 'square middle left'>&nbsp;</td>
         <td class= 'square middle center diagOne diagTwo'>&nbsp;</td>
         <td class= 'square middle right'>&nbsp;</td>
+      </tr>
 
 
       <tr id= 'bottom'>
@@ -24,14 +26,20 @@
         <td class= 'square bottom center'>&nbsp;</td>
         <td class= 'square bottom right diagOne'>&nbsp;</td>
       </tr>
-      <tr>
-
-      </tr>
 
     </table>
+    <div class='scores'>
+      <table>
+        <td id='Xname'>X:</td>
+        <td id='Xscore'>0</td>
+        <td id='Oname'>O:</td>
+        <td id='Oscore'>0</td>
+      </table>
+    </div>
 
     <div class="buttons">
       <button id= "restart">Restart</button>
+      <button id= "extreme">Extreme: ON</button>
 
     </div>
 
